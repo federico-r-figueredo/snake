@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Snake</title>
+	</head>
+	<style>
+		@font-face{
+			font-family: Arcade;
+			src: url(fonts/ARCADE_N.ttf);
+		}
+		body{
+			background: #000;
+			font-family: Arcade;
+		}
+		canvas {
+			background: #000;
+			display: block;
+			margin:0 auto;
+			border: 3px solid #008F11;
+		}
+		div{
+			margin:auto;
+			width: 590px;
+			border: 3px solid #008F11;
+			padding: 10px;
+			
+		}
+
+		h1 {
+			text-align: center;
+			color: white;
+			font-size: 45px;
+		}
+		h2 {
+			text-align: center;
+			color: white;
+			font-size: 15px;
+		}
+	</style>
+	<body>
+		<div style="margin-top: 70px;">
+			<h1>SNAKE</h1>
+		</div>
+		<p>
+			<canvas width="608" height="608" id="canvas"></canvas>
+		</p>
+		<div>
+			<h2>coded by Federico Figueredo</h2>
+		</div>
+		<script type="text/javascript" src="snake.js"></script>
+	</body>
+</html>
